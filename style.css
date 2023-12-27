@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    /* margin: 0; */
+    padding: 0;
+}
+.main-container{
+    gap: 5px;
+}
+.left-child{
+    width: 20vw;
+}
+.right-child{
+    width: 80vw;
+}
