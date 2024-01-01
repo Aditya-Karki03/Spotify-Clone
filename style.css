@@ -12,3 +12,12 @@
 .right-child{
     width: 80vw;
 }
+ul img{
+    height: 24px;
+    width: 24px;
+}
+.home ul li{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
