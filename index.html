@@ -3,23 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Spotify Clone</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="utility.css" />
   </head>
   <body>
-    <div class="main-container flex">
-      <div class="left-child border">
-        <div class="home">
-          <div class="logo"><img src="spotify.svg" alt="spotify logo" /></div>
+    <div class="container flex bg-black">
+      <div class="left border">
+        <div class="home bg-gray">
+          <div class="logo">
+            <img class="invert" src="spotify.svg" alt="Spotify logo" />
+          </div>
           <ul>
-            <li><img id="home-logo" src="home.svg" alt="Home logo" />Home</li>
-            <li><img src="search.svg" alt="Search Icon" />Search</li>
+            <li><img class="invert" src="home.svg" alt="Home logo" />Home</li>
+            <li>
+              <img class="invert" src="search.svg" alt="Search logo" />Search
+            </li>
           </ul>
         </div>
-        <div class="library"></div>
+        <div class="library bg-gray"></div>
       </div>
-      <div class="right-child border"></div>
+      <div class="right border"></div>
     </div>
   </body>
 </html>

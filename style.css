@@ -1,23 +1,28 @@
 *{
-    box-sizing: border-box;
-    /* margin: 0; */
+    margin: 0;
     padding: 0;
 }
-.main-container{
-    gap: 5px;
+
+body{
+    /* background-color: #000;
+    color: #fff; */
+    
 }
-.left-child{
+.container{
+ /* width: 100%; */
+ gap: 3px;
+ /* border: 5px solid #000; */
+}
+.left{
     width: 20vw;
+    padding: 15px;
 }
-.right-child{
+.right{
     width: 80vw;
-}
-ul img{
-    height: 24px;
-    width: 24px;
 }
 .home ul li{
     list-style-type: none;
+    width: 24px;
     display: flex;
-    gap: 10px;
+    gap: 8px;
 }
